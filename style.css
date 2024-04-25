@@ -1,0 +1,151 @@
+@media (max-width: 900px) {
+    .container img {
+     position: relative;
+     right: 50px;
+    }
+
+    .content2 h1 {
+        width: 400px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .content2 h4 {
+        width: 400px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .content2 h5 {
+        width: 400px;
+        position: relative;
+        bottom: 80px;
+    }
+
+
+    .input-content {
+        position: relative;
+        right: 490px;
+    }
+
+
+    .input-content input {
+        width: 100px;
+    }
+
+
+    .input-content button {
+        
+    }
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('MK-en-20240422-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a2837476-9938-49df-a0aa-665560d6def4_small.jpg');
+
+
+}
+
+
+.content {
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+
+
+ .content button {
+    width: 77px;
+    height: 34px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+ }
+
+
+
+.signIn:hover {
+     background-color: brown;
+}
+
+
+.content2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    gap: 10px;
+}
+
+.content2 h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content2 h4 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.content2 h5 {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+
+}
+
+
+
+.input-content {
+    position: relative;
+    top: 230px;
+    margin-left: 500px;
+}
+
+
+.input-content input {
+    width: 400px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.input-content input::placeholder {
+    color: white;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+
+
+.input-content button {
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+.input-content svg {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    width: 30px;
+}
